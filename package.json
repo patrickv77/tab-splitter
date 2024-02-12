@@ -1,0 +1,19 @@
+{
+  "name": "tab-splitter",
+  "version": "1.0.0",
+  "description": "An app designed to help friends split the tab with a focus on an intuitive user experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickv77/tab-splitter.git"
+  },
+  "author": "Patrick Vuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickv77/tab-splitter/issues"
+  },
+  "homepage": "https://github.com/patrickv77/tab-splitter#readme"
+}
