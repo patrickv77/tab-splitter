@@ -4,7 +4,8 @@
   "description": "An app designed to help friends split the tab with a focus on an intuitive user experience",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode=development --open",
+    "build": "export NODE_ENV=production && webpack"
   },
   "repository": {
     "type": "git",
