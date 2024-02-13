@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/patrickv77/tab-splitter/issues"
   },
-  "homepage": "https://github.com/patrickv77/tab-splitter#readme"
+  "homepage": "https://github.com/patrickv77/tab-splitter#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.22.0"
+  }
 }
