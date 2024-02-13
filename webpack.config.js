@@ -1,7 +1,7 @@
 const path = require('path');
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: './client/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -10,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/i,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'client'),
         use: {
           loader: 'babel-loader',
           options: {
@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'client'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
     ],
