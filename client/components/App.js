@@ -10,7 +10,7 @@ const App = () => {
       lorem ipsum etc asdf
       </body>
       <div>
-        <p className="bg-black">hello world</p>
+        <p className="bg-green-400">hello world</p>
       </div>
       
     </div>
