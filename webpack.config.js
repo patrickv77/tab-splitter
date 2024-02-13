@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'client'),
+        include: path.resolve(__dirname, './client/public'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
     ],
