@@ -18,3 +18,8 @@ const App = () => {
 };
 
 export default App;
+/*
+
+todo: design the UI
+
+*/
