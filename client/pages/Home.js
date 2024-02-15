@@ -8,7 +8,7 @@ const Home = () => {
       <div className="flex flex-col bg-slate-500 flex-1 items-center justify-center max-h-[80px] ">
         <h1 className="text-3xl font-bold">TAB SPLITTER</h1>
       </div>
-      <div className="flex bg-red-900 text-white flex-1 items-center justify-center">landing page</div>
+      <div className="flex bg-red-900 text-white flex-1 items-center justify-center italic">landing page</div>
     </div>
   );
 };
