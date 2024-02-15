@@ -5,14 +5,10 @@ import React from 'react';
 const App = () => {
   return (
     <div className="flex flex-col h-screen border-2 border-solid border-orange-400">
-      <h1 className="bg-slate-500 text-center">TAB SPLITTER</h1>
-      <body className="bg-red-900 text-white">
-      lorem ipsum etc asdf
-      </body>
-      <div>
-        <p className="bg-green-400">hello world</p>
-      </div>
-      
+      <h1 className="flex bg-slate-500 flex-1 items-center justify-center max-h-[80px]">
+        TAB SPLITTER
+      </h1>
+      <div className="flex bg-red-900 text-white flex-1 items-center justify-center">landing page</div>
     </div>
   );
 };
