@@ -2,10 +2,12 @@
 
 import React from 'react';
 import Home from '../pages/Home';
+import Splitter from '../pages/Splitter';
 
 const App = () => {
   return (
-    <Home />
+    // <Home />
+    <Splitter />
   );
 };
 

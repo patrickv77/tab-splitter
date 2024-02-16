@@ -8,9 +8,9 @@ const Splitter = () => {
       <div className="flex flex-col bg-slate-500 flex-1 items-center justify-center max-h-[80px] ">
         <h1 className="text-3xl font-bold">Splitter Page</h1>
       </div>
-      <div className="flex flex-row bg-red-900 text-white flex-1 items-center justify-center italic">
-        <div>hello</div>
-        <div>world</div>
+      <div className="flex flex-row bg-red-900 text-white flex-1">
+        <div className="flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black">hello</div>
+        <div className="flex-1 border-2 border-solid border-blue-600 bg-orange-200 text-black">world</div>
       </div>
     </div>
   );
