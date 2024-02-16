@@ -8,6 +8,7 @@ const Splitter = () => {
       <div className="flex flex-col bg-slate-500 flex-1 items-center justify-center max-h-[80px] ">
         <h1 className="text-3xl font-bold">Splitter Page</h1>
       </div>
+      <div className="flex-none h-[24px] bg-purple-300"> filters maybe </div>
       <div className="flex flex-row bg-red-900 text-white flex-1">
         <div className="flex flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black">this is were the bill elements will live, should be able to add, remove, edit, etc</div>
         <div className="flex flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black">this is where the users will live, drag and drop? or highlight and click</div>
