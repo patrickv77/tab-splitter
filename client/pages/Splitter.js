@@ -23,9 +23,9 @@ const Splitter = () => {
           <TabItem />
           <TabItem />
         </div>
-        <div className="flex flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black">
-          this is where the users will live, drag and drop? or highlight and
-          click
+        <div className="flex flex-col flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black h-full overflow-auto scrollbar">
+          <p>this is where the users will live, drag and drop? or highlight and
+          click</p>
         </div>
       </div>
       <div className="flex-none h-32 bg-purple-300 "> section for totals/tax/tip </div>
