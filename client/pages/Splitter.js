@@ -1,6 +1,7 @@
 // placeholder file for main app functionality page
 
 import React from 'react';
+import TabItem from '../components/TabItem';
 
 const Splitter = () => {
   return (
@@ -11,7 +12,16 @@ const Splitter = () => {
       <div className="flex-none h-[24px] bg-purple-300"> filters maybe </div>
       <div className="flex flex-row bg-red-900 text-white flex-1">
         <div className="flex flex-col flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black">
-          
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
+          <TabItem />
         </div>
         <div className="flex flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black">this is where the users will live, drag and drop? or highlight and click</div>
       </div>
