@@ -31,6 +31,12 @@ const Splitter = () => {
 
 export default Splitter;
 
+// TODO:
+/*
+
+  inner scroll for tab items
+
+*/
 /*
 
   main functionality page
