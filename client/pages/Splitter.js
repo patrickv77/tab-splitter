@@ -28,6 +28,7 @@ const Splitter = () => {
           click
         </div>
       </div>
+      <div className="flex-none h-32 bg-purple-300 "> section for totals/tax/tip </div>
     </div>
   );
 };
