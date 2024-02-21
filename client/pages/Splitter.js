@@ -11,7 +11,8 @@ const Splitter = () => {
       </div>
       <div className="flex-none h-[24px] bg-purple-300 "> filters maybe </div>
       <div className="flex flex-row bg-red-900 text-white flex-1 h-full min-h-0">
-        <div className="flex flex-col flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black h-full overflow-auto scrollbar">
+        <div className="flex flex-col flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black ">
+        <div className="h-full overflow-auto scrollbar">
           <TabItem />
           <TabItem />
           <TabItem />
@@ -22,6 +23,10 @@ const Splitter = () => {
           <TabItem />
           <TabItem />
           <TabItem />
+        </div>
+        <div className="flex bg-slate-300 border-2 border-solid border-black h-12 items-center justify-center">
+          <>+</>
+        </div>
         </div>
         <div className="flex flex-col flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black h-full overflow-auto scrollbar">
           <p>this is where the users will live, drag and drop? or highlight and
