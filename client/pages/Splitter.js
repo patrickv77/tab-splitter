@@ -43,6 +43,13 @@ export default Splitter;
 // TODO:
 /*
 
+  drag and drop?
+  design bill/tab elements
+  design user elements
+  design totals/tax/tip section
+  add filters for (unassigned/assigned etc)
+  could add categories to bill/tab elements (mains, apps, drinks, desserts)?
+
 */
 /*
 
