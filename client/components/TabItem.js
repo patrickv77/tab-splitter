@@ -12,3 +12,13 @@ const TabItem = () => {
 };
 
 export default TabItem;
+
+// TODO:
+/*
+
+  edit button:
+    pull up an overlay screen to input name of item, price etc.
+
+  delete button
+
+ */
