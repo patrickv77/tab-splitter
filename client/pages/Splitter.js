@@ -24,9 +24,9 @@ const Splitter = () => {
           <TabItem />
           <TabItem />
         </div>
-        <div className="flex bg-slate-300 border-2 border-solid border-black h-12 items-center justify-center">
-          <>+</>
-        </div>
+        <button className="flex bg-slate-300 border-2 border-solid border-black h-12 items-center justify-center">
+          <p>+</p>
+        </button>
         </div>
         <div className="flex flex-col flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black h-full overflow-auto scrollbar">
           <p>this is where the users will live, drag and drop? or highlight and
