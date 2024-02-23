@@ -8,6 +8,7 @@ const TabItem = () => {
       this is where the bill elements will live, should be able to add, remove,
       edit, etc
       <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5">EDIT</button>
+      <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium text-sm rounded-lg px-5 py-2.5 text-center mr-5">DELETE</button>
     </div>
   );
 };
