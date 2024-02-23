@@ -19,6 +19,7 @@ export default TabItem;
 
   edit button:
     pull up an overlay screen to input name of item, price etc.
+    change the edit icon to the classic pen icon
 
   delete button
 
