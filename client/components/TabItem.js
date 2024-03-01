@@ -5,8 +5,8 @@ import React from 'react';
 const TabItem = () => {
   return (
     <div className="flex flex-none h-24 border-2 border-solid border-red-600 rounded-xl my-[1px]">
-      <div className="flex items-center justify-center grow-1 w-1/6">[item name]</div>
-      <div className="flex items-center justify-center grow-1 w-1/6">[item price]</div>
+      <div className="flex items-center justify-center grow-1 w-1/6">Pepperoni Pizza</div>
+      <div className="flex items-center justify-center grow-1 w-1/6">$14.99</div>
       <div className="flex grow-1 w-2/3 justify-between">
         <div>Users:</div>
         <div className="flex">
