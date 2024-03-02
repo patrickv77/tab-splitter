@@ -29,8 +29,7 @@ const Splitter = () => {
         </button>
         </div>
         <div className="flex flex-col flex-none w-32 border-2 border-solid border-blue-600 bg-orange-200 text-black h-full overflow-auto scrollbar">
-          <p>this is where the users will live, drag and drop? or highlight and
-          click</p>
+          <div>circle with initials, underneath have the name</div>
         </div>
       </div>
       <div className="flex-none h-32 bg-purple-300 "> section for totals/tax/tip </div>
