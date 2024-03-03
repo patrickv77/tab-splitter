@@ -13,7 +13,7 @@ const Splitter = () => {
       <div className="flex flex-col bg-slate-500 flex-1 items-center justify-center max-h-[80px] ">
         <h1 className="text-3xl font-bold">Splitter Page</h1>
       </div>
-      <div className="flex-none h-[24px] bg-purple-300 "> filters maybe </div>
+      <div className="flex-none h-[24px] bg-purple-300 "> [ ]Checkbox (Unassigned), _____TAX%</div>
       <div className="flex flex-row bg-red-900 text-white flex-1 h-full min-h-0">
         <div className="flex flex-col flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black ">
         <div className="h-full overflow-auto scrollbar">
