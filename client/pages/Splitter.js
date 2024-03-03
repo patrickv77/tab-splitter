@@ -4,6 +4,10 @@ import React from 'react';
 import TabItem from '../components/TabItem';
 
 const Splitter = () => {
+  const tempTabs = ['a','a','a','a','a','a','a','a','a'];
+
+  const board = [];
+  tempTabs.map((el) => board.push(<TabItem />));
   return (
     <div className="flex flex-col h-screen border-2 border-solid border-orange-400">
       <div className="flex flex-col bg-slate-500 flex-1 items-center justify-center max-h-[80px] ">
@@ -13,16 +17,7 @@ const Splitter = () => {
       <div className="flex flex-row bg-red-900 text-white flex-1 h-full min-h-0">
         <div className="flex flex-col flex-1 border-2 border-solid border-green-300 bg-yellow-200 text-black ">
         <div className="h-full overflow-auto scrollbar">
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
-          <TabItem />
+          {board}
         </div>
         <button className="flex bg-slate-300 border-2 border-solid border-black h-12 items-center justify-center">
           <p>+</p>
